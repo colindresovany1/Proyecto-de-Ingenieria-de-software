@@ -1,0 +1,26 @@
+<nav  style="background-color: #24303C;" id="sidebar">
+      
+    <div  class="p-4 pt-5">
+      <a href="#" class="img logo rounded-circle mb-5" style="width: 162px; height: 126px; border-radius: 0px!important;"></a>
+      <ul class="list-unstyled components mb-5">
+        <li class="active">
+          <a href="#">Dashboard</a>
+        </li>
+        <li>
+          <a [routerLink]="['/dashboard/usuario']"  routerLinkActive="active" >Usuarios</a>
+        </li>
+        <li>
+          <a [routerLink]="['/dashboard/empresas']"  routerLinkActive="active" >Empresas</a>
+        </li>
+        <li>
+          <a [routerLink]="['/dashboard/clientes']"  routerLinkActive="active" >Clientes</a>
+        </li>
+        <li>
+          <a [routerLink]="['/dashboard/roles']"  routerLinkActive="active" >Categoria</a>
+        </li>
+        <li>
+          <a [routerLink]="['/dashboard/planes']"  routerLinkActive="active" >Planes</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

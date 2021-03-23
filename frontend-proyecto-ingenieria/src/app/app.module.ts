@@ -10,6 +10,10 @@ import { ContratoComponent } from './contrato/contrato.component';
 import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NavbardComponent } from './componentes/navbard/navbard.component';
+import { SidebardComponent } from './componentes/sidebard/sidebard.component';
+import { DashboardComponent } from './paginas/dashboard/dashboard.component';
+import { UsuariosComponent } from './paginas/usuarios/usuarios.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'/inico', pathMatch: 'full'},
@@ -24,7 +28,11 @@ const routes: Routes = [
     AppComponent,
     RegistroUsuariosComponent,
     ContratoComponent,
-    InicioComponent
+    InicioComponent,
+    NavbardComponent,
+    SidebardComponent,
+    DashboardComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
