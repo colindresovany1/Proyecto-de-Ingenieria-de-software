@@ -41,7 +41,7 @@ const getUser = async (req = request, res = response) => {
 
 }
 
-// ACTUALIZAR USUARIOS
+// ACTUALIZAR USUARIO
 const updateUser = async (req = request, res = response) => {
 
     const user = await User.findByPk(req.params.id);
