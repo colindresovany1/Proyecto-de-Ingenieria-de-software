@@ -17,8 +17,6 @@ app.use('/categoria', require('./routes/categoria'));
 
 
 
-
-
 app.listen(3500, () => {
 
     sequelize.sync(force =true).then(con => console.log('Conectado'));
